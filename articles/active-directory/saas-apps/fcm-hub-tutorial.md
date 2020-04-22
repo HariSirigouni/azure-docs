@@ -83,6 +83,8 @@ Follow these steps to enable Azure AD SSO in the Azure portal.
 1. On the **Basic SAML Configuration** section, the user does not have to perform any step as the app is already pre-integrated with Azure.
 
 1. Click **Set additional URLs** and perform the following step if you wish to configure the application in **SP** initiated mode:
+    
+    In the **Identifier (Entity ID)** text box, remove **Home/IdpSSO** as it requires host name only.
 
     In the **Sign-on URL** text box, type a URL using the following pattern:
     `https://hub.fcm.travel/SsoSp/SpInit?clientid=<CUSTOMID>`
